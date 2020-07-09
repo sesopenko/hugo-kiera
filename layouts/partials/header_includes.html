@@ -5,5 +5,4 @@
   {{- range .Site.Params.Assets.customCSS -}}
     <link rel='stylesheet' href='{{ . | absURL }}'>
   {{- end -}}
-  {{ template "_internal/google_analytics.html" . }}
 

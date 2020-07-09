@@ -3,6 +3,7 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 
 <head>
+  {{ template "_internal/google_analytics_async.html" . }}
   <title>{{ .Site.Title }}</title>
   {{ partial "meta" . }}
   {{ partial "header_includes" . -}}
